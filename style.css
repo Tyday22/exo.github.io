@@ -1,0 +1,39 @@
+/*Styling*/
+
+html {
+    background:rgb(20, 20, 20);
+    color:white;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+button {
+    color: white;
+    background:rgb(50, 50, 50);
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana;
+    cursor: pointer;
+}
+button:hover 
+{
+    box-shadow:0 16px 16px 0 rgba(140, 140, 140, 0.3);
+}
+
+/*Centering elements*/
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
