@@ -12,7 +12,7 @@ function download(file){
 }
 function bg() {
     bgNum++; 
-    if (bgNum > 7) bgNum = 1;    
+    if (bgNum >= 7) bgNum = 1;    
     container.style.backgroundImage = `url('../Images/BG${bgNum}.webp')`;  
     container.style.backgroundSize = "cover";
     container.style.backgroundPosition = "center";
