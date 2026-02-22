@@ -6,7 +6,13 @@ html {
     font-family: Verdana;
     font-size: 20px;
 }
-
+p.description {
+  color:black;
+}
+#main {
+    height: 100vh;
+    width: 100%;
+}
 button {
     color: white;
     background:rgb(50, 50, 50);

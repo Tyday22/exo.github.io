@@ -6,11 +6,11 @@
     <title>Lilly Valley</title>
 </head>
 <link rel="stylesheet" href="../style.css">
-<script src="../script.js"></script>
-<body style="background-image: url('Images/BG1.jpg');">
-    <div class="center">
+<body>
+    </script>
+    <div class="center", id="main">
     <div class="vertical-center">
-        <p>
+        <p class="description">
             Welcome to the Lilly valley Game page.
             <br><br>
             Lilly Valley is an open-world exploration game currently in development. 
@@ -18,14 +18,15 @@
             Our team is creating an immersive experience that combines stunning visuals with engaging gameplay mechanics.
             <br>
             Built with Godot engine and C#, Lilly Valley delivers a seamless and responsive gaming experience.
-            </p>
+        </p>
         <div class="buttons">
             <button class="button1", onclick="page('../index.htm')">Go to Homepage</button>
             <br>
             <br>
-            <button class="button2", onclick="download('Game/TestVer1.zip')">⊞ Download For Windows</button>
+            <button class="button2", onclick="download('Game/TestVer1.zip')" style="display: flex; align-items: center; gap: 10px;"><img src="../Images/Windows.png" style="width: 64px; height: 64px;"> Download For Windows</button>
         </div>
     </div>
     </div>
+    <script src="../script.js"></script>
 </body>
 </html>
