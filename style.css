@@ -20,10 +20,12 @@ p.description {
   border-radius: 15px;
   padding: 15px;
 }
+
 #main {
     height: 100vh;
     width: 100%;
 }
+
 button {
     color: white;
     background:rgb(50, 50, 50);

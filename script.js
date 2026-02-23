@@ -1,5 +1,5 @@
 let bgNum = 1;
-const container = document.getElementById('main');
+const repBg = document.getElementById('main');
 
 function page(pageid){
     window.location.href = pageid;
@@ -11,14 +11,17 @@ function download(file){
     link.click();
     window.alert("Downloading File(s)");
 }
-function bg() {
+function bgc() {
     bgNum++; 
     if (bgNum >= 6) bgNum = 1;
-    container.style.backgroundImage = `url('../Images/BG${bgNum}.webp')`;  
-    container.style.backgroundSize = "cover";
-    container.style.backgroundPosition = "center";
-    container.style.backgroundRepeat = "no-repeat";
+    repBg.style.backgroundImage = `url('../Images/BG${bgNum}.webp')`;  
+    repBg.style.backgroundSize = "cover";
+    repBg.style.backgroundPosition = "center";
+    repBg.style.backgroundRepeat = "no-repeat";
 }
+
 bg();
 
-setInterval(bg, 10000);
+bgc();
+
+setInterval(bgc, 10000);
