@@ -9,7 +9,7 @@ function download(file){
     link.href = file;
     link.download = '';
     link.click();
-    window.alert("Downloading File(s)");
+    window.alert("Downloading File(s) - Kindly wait for download to begin.");
 }
 function bgc() {
     bgNum++; 
