@@ -7,7 +7,7 @@ html {
     font-size: 20px;
 }
 p.description {
-  color:black;
+  color:rgb(20, 20, 20);
 }
 #main {
     height: 100vh;

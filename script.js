@@ -1,4 +1,4 @@
-let bgNum = 0;
+let bgNum = 1;
 const container = document.getElementById('main');
 
 function page(pageid){
@@ -12,12 +12,11 @@ function download(file){
 }
 function bg() {
     bgNum++; 
-    if (bgNum >= 7) bgNum = 1;    
+    if (bgNum >= 6) bgNum = 1;
     container.style.backgroundImage = `url('../Images/BG${bgNum}.webp')`;  
     container.style.backgroundSize = "cover";
     container.style.backgroundPosition = "center";
     container.style.backgroundRepeat = "no-repeat";
 }
-
-bg(); 
+bg();
 setInterval(bg, 10000);
