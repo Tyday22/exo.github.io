@@ -1,13 +1,24 @@
 /*Styling*/
 
 html {
-    background:rgb(20, 20, 20);
+    background:rgb(30,30,30);
     color:white;
     font-family: Verdana;
     font-size: 20px;
 }
+p{
+  color:rgb(255, 255, 255);
+  background:rgba(200, 200, 200, 0.6);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+}
 p.description {
-  color:rgb(20, 20, 20);
+  color:rgb(30, 30, 30);
+  background:rgba(200, 200, 200, 0.6);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
 }
 #main {
     height: 100vh;
