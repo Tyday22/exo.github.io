@@ -9,7 +9,7 @@ function download(file){
     link.href = file;
     link.download = '';
     link.click();
-    alert("Downloading File(s)");
+    window.alert("Downloading File(s)");
 }
 function bg() {
     bgNum++; 
@@ -20,4 +20,5 @@ function bg() {
     container.style.backgroundRepeat = "no-repeat";
 }
 bg();
+
 setInterval(bg, 10000);
