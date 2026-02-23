@@ -20,8 +20,6 @@ function bgc() {
     repBg.style.backgroundRepeat = "no-repeat";
 }
 
-bg();
-
 bgc();
 
 setInterval(bgc, 10000);
