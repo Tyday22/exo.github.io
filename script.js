@@ -9,6 +9,7 @@ function download(file){
     link.href = file;
     link.download = '';
     link.click();
+    alert("Downloading File(s)");
 }
 function bg() {
     bgNum++; 
