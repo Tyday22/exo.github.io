@@ -18,6 +18,7 @@ function bgc() {
     repBg.style.backgroundSize = "cover";
     repBg.style.backgroundPosition = "center";
     repBg.style.backgroundRepeat = "no-repeat";
+    repBg.style.backgroundAttachment = "fixed";
 }
 
 bgc();
